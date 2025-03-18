@@ -47,7 +47,7 @@ def get_company_info(inn):
     return company_data
 
 
-# 🔥 Введи ИНН компании:
+# Введи ИНН компании:
 inn = "110506802086"
 data = get_company_info(inn)
 print(json.dumps(data, indent=4, ensure_ascii=False))
